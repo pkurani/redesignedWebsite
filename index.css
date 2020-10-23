@@ -1,1 +1,74 @@
-/* Put your style information here! */
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+body{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+img {
+  max-width: 100%;
+  max-height: 500px;
+  background-color: powderblue;
+
+}
+i{
+  float: right;
+}
+p{
+  font-size: 1em;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.dropdown {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.login {
+  float: right;
+
+}
+
+.overflow-hidden { overflow: hidden; }
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+#background_img
+{
+    background-image: url('backgroundOne.jpg'););
+    background-repeat:no-repeat;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#dashboard_img
+{
+    background-image: url('backgroundDashBoard.png');
+    background-repeat:no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.01);
+
+}
